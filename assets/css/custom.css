@@ -28,8 +28,13 @@ a.right.carousel-control{
 .navbar-brand{
     width: 300px;
 }
-.navbar-brand img{
-    width: 100%;
+.navbar-brand img:first-child {
+    width: 79%;
+}
+.navbar-brand img:nth-child(2) {
+    width: 20%;
+    float: right;
+    margin-top: -60px;
 }
 .navbar.navbar-default.navbar-fixed-top{
     height: 100px;
@@ -41,5 +46,18 @@ a.right.carousel-control{
     margin-top:50px;
 }
 .item img{
+    width: 100%;
+}
+.hide-bullets {
+    list-style:none;
+    margin-left: -40px;
+    margin-top:20px;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
     width: 100%;
 }
