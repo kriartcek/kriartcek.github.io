@@ -29,12 +29,7 @@ a.right.carousel-control{
     width: 300px;
 }
 .navbar-brand img:first-child {
-    width: 79%;
-}
-.navbar-brand img:nth-child(2) {
-    width: 20%;
-    float: right;
-    margin-top: -60px;
+    width: 100%;
 }
 .navbar.navbar-default.navbar-fixed-top{
     height: 100px;
@@ -60,4 +55,11 @@ a.right.carousel-control{
 
 .carousel-inner>.item>img, .carousel-inner>.item>a>img {
     width: 100%;
+}
+#carousel-bounding-box{
+
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 15px;
+
 }
