@@ -191,3 +191,6 @@ $('#myTabs li:eq(2) a').tab('show') // Select third tab (0-indexed)
                 $('#carousel-text').html($('#slide-content-'+id).html());
         });
 });
+    if ($(window).width() < 992) {
+
+    }
