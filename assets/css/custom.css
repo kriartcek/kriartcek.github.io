@@ -40,6 +40,7 @@ a.right.carousel-control{
 }
 .nav.navbar-nav.navbar-right{
     margin-top:20px;
+    background-color: #f8f8f8;
 }
 .item img{
     width: 100%;
@@ -49,20 +50,16 @@ a.right.carousel-control{
     margin-left: -40px;
     margin-top:20px;
 }
-
 .thumbnail {
     padding: 0;
 }
-
 .carousel-inner>.item>img, .carousel-inner>.item>a>img {
     width: 100%;
 }
 #carousel-bounding-box{
-
     padding-right: 0px;
     padding-left: 0px;
     padding-top: 15px;
-
 }
 #Tab_transition {
     margin: 10px 50px 50px 50px;
@@ -71,14 +68,22 @@ a.right.carousel-control{
     float: right;
 }
 .page-header{
-
     margin-top: -20px;
-
 }
 iframe{
     width: 100%;
     height: 500px;
 }
-#KoAudzejamHead{
+.KoAudzejamHead{
     margin-top: 50px;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+    border-color: transparent;
+}
+.navbar-collapse.collapse.in{    
+    border-top-width: 0px;
+}
+.bg-lightgray{
+    background-color:LightGray;
+    margin-top: 100px;
 }
