@@ -27,19 +27,19 @@ a.right.carousel-control{
 }
 .navbar-brand{
     padding-top: 0px;
-    width: 300px;
+    width: 400px;
 }
-.navbar-brand img:first-child {
+.navbar-brand img{
     width: 100%;
 }
 .navbar.navbar-default.navbar-fixed-top{
-    height: 70px;
+    height: 95px;
 }
 .container.theme-showcase{
-    margin-top: 70px;
+    margin-top: 95px;
 }
 .nav.navbar-nav.navbar-right{
-    margin-top:20px;
+    margin-top:45px;
     background-color: #f8f8f8;
 }
 .item img{
