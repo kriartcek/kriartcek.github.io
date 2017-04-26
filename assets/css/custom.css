@@ -176,3 +176,19 @@ iframe{
       display:block !important;
   }
 }
+.table.table-striped{
+    border-bottom: 1px solid lightgrey;
+}
+.carousel.slide{
+    border: 1px solid lightgray;
+}
+.tab-content{
+    border: 1px solid lightgray;
+    border-top: none;
+}
+.tab-pane.fade p:first-child{
+    padding-top: 10px;
+}
+.tab-pane.fade p{
+    padding: 0 10px 0 10px;
+}
