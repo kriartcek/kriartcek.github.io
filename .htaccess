@@ -7,6 +7,8 @@ RewriteRule ^(.+)$ $1.html [L,QSA]
 #If you want to redirect http://www.example.com to http://example.com
 RewriteCond %{HTTP_HOST} ^www\.jaunbirzgali\.lv$
 RewriteRule ^/?$ "http\:\/\/jaunbirzgali\.lv\/" [R=301,L]
+RewriteCond %{HTTP_HOST} !^www.example.com$ [NC]
+RewriteRule ^(.*)$ http://www.example.com/$1 [L,R=301]
 
 #301 from example.com/page.html to example.com/page
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /.*\.html\ HTTP/
