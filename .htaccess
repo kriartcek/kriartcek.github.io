@@ -9,8 +9,8 @@ RewriteEngine on
 RewriteCond %{HTTP_HOST} ^www\.jaunbirzgali\.lv$ [NC]
 RewriteRule ^(.*)$ http://jaunbirzgali.lv/$1 [R=301,L]
 
-RewriteCond %{HTTP_USER_AGENT} libwww-perl.* 
-RewriteRule .* ? [F,L]
+RewriteCond %{HTTP_USER_AGENT} libwww-perl.*
+RewriteRule .* – [F,L]
 
 #301 from example.com/page.html to example.com/page
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /.*\.html\ HTTP/
