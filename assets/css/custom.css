@@ -177,10 +177,11 @@ iframe{
   }
 }
 .table.table-striped{
-    border-bottom: 1px solid lightgrey;
+    border-bottom: 1px solid #d3d3d3;
 }
 .carousel.slide{
     border: 1px solid lightgray;
+    margin-bottom: 25px;
 }
 .tab-content{
     border: 1px solid lightgray;
@@ -190,14 +191,17 @@ iframe{
     padding-top: 10px;
 }
 .tab-pane.fade p{
-    padding: 0 10px 0 10px;
+    padding: 0 10px;
 }
 .copyrights{
     margin-top:25px;
 }
 h2{
     font-size: 14px;
-    margin: 0px auto;        
+    margin: 0 auto;        
     height: 20px;
 
 }
+.carousel-caption{
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }    
